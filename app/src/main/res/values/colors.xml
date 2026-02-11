@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="madelaye_yellow">#FFC107</color> <!-- Une nuance de jaune inspirée de l'image -->
+    <color name="madelaye_yellow_dark">#FFA000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#757575</color>
+</resources>
