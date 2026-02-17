@@ -44,6 +44,16 @@
                 android:padding="16dp"
                 android:textColorHint="@color/gray_dark" />
 
+            <TextView
+                android:id="@+id/tvErrorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Le nom doit contenir au moins 3 caractères"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                android:layout_marginTop="4dp" />
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="12dp" />
@@ -57,6 +67,16 @@
                 android:textColorHint="@color/gray_dark"
                 android:inputType="textEmailAddress"
                 android:padding="16dp"/>
+
+            <TextView
+                android:id="@+id/tvErrorEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L'email doit être valide"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                android:layout_marginTop="4dp" />
 
             <Space
                 android:layout_width="match_parent"
@@ -72,6 +92,16 @@
                 android:padding="16dp"
                 android:textColorHint="@color/gray_dark" />
 
+            <TextView
+                android:id="@+id/tvErrorPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Le mot de passe doit contenir au moins 6 caractères"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                android:layout_marginTop="4dp" />
+
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="12dp" />
@@ -81,10 +111,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit_text_background"
-                android:hint="Mot de passe"
+                android:hint="Confirmer le mot de passe"
                 android:inputType="textPassword"
                 android:padding="16dp"
                 android:textColorHint="@color/gray_dark" />
+
+            <TextView
+                android:id="@+id/tvErrorConfirmPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Les mots de passe ne correspondent pas"
+                android:textColor="@color/red"
+                android:textSize="12sp"
+                android:visibility="invisible"
+                android:layout_marginTop="4dp" />
 
             <Space
                 android:layout_width="match_parent"
